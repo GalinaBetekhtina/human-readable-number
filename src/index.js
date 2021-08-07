@@ -7,7 +7,7 @@ module.exports = function toReadable (number) {
   let units, dozens, hundreds, numberWithoutUnits;
 
   if (number >= 0 && number < 10) {
-      return arrNumber[0][number];
+      return arrNumbers[0][number];
   };
   if (number >= 10 && number < 20) {
       units = number % 10;
